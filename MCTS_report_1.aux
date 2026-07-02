@@ -1,0 +1,300 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\providecommand \oddpage@label [2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{3}{section.1}\protected@file@percent }
+\newlabel{sec:introduction}{{1}{3}{Introduction}{section.1}{}}
+\newlabel{sec:introduction@cref}{{[section][1][]1}{[1][3][]3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Process synthesis as a combinatorial search problem}{3}{subsection.1.1}\protected@file@percent }
+\citation{coulom2006,kocsis2006}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Why MCTS is suited to flowsheet generation}{4}{subsection.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Architecture overview}{4}{subsection.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.4}Scope of this report}{4}{subsection.1.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Problem Formulation as a Finite-Horizon MDP}{5}{section.2}\protected@file@percent }
+\newlabel{sec:mdp}{{2}{5}{Problem Formulation as a Finite-Horizon MDP}{section.2}{}}
+\newlabel{sec:mdp@cref}{{[section][2][]2}{[1][5][]5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Material stream state}{5}{subsection.2.1}\protected@file@percent }
+\newlabel{eq:stream_state}{{1}{5}{Material stream state}{equation.2.1}{}}
+\newlabel{eq:stream_state@cref}{{[equation][1][]1}{[1][5][]5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Search state}{5}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Flowsheets as directed process graphs}{5}{subsection.2.3}\protected@file@percent }
+\newlabel{sec:process_graph}{{2.3}{5}{Flowsheets as directed process graphs}{subsection.2.3}{}}
+\newlabel{sec:process_graph@cref}{{[subsection][3][2]2.3}{[1][5][]5}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Components of the search state $X_t$ (\texttt  {SearchState}{}).\relax }}{6}{table.caption.2}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:search_state}{{1}{6}{Components of the search state $X_t$ (\SearchState {}).\relax }{table.caption.2}{}}
+\newlabel{tab:search_state@cref}{{[table][1][]1}{[1][5][]6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}MDP formulation}{6}{subsection.2.4}\protected@file@percent }
+\newlabel{sec:mdp_formal}{{2.4}{6}{MDP formulation}{subsection.2.4}{}}
+\newlabel{sec:mdp_formal@cref}{{[subsection][4][2]2.4}{[1][6][]6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Action representation and valid action set}{7}{subsection.2.5}\protected@file@percent }
+\newlabel{sec:actions}{{2.5}{7}{Action representation and valid action set}{subsection.2.5}{}}
+\newlabel{sec:actions@cref}{{[subsection][5][2]2.5}{[1][7][]7}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.1}Distillation key-pair enumeration}{8}{subsubsection.2.5.1}\protected@file@percent }
+\newlabel{eq:adj_key_pairs}{{16}{8}{Distillation key-pair enumeration}{equation.2.16}{}}
+\newlabel{eq:adj_key_pairs@cref}{{[equation][16][]16}{[1][8][]8}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.2}Phase gates for pressure-changing actions}{8}{subsubsection.2.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Stream-priority gating}{8}{subsection.2.6}\protected@file@percent }
+\newlabel{sec:priority}{{2.6}{8}{Stream-priority gating}{subsection.2.6}{}}
+\newlabel{sec:priority@cref}{{[subsection][6][2]2.6}{[1][8][]8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.7}State transition}{8}{subsection.2.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Simplified Unit-Operation Models}{9}{section.3}\protected@file@percent }
+\newlabel{sec:units}{{3}{9}{Simplified Unit-Operation Models}{section.3}{}}
+\newlabel{sec:units@cref}{{[section][3][]3}{[1][9][]9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Heat exchange}{9}{subsection.3.1}\protected@file@percent }
+\newlabel{sec:hx}{{3.1}{9}{Heat exchange}{subsection.3.1}{}}
+\newlabel{sec:hx@cref}{{[subsection][1][3]3.1}{[1][9][]9}}
+\@writefile{toc}{\contentsline {paragraph}{Phase-boundary targets.}{9}{section*.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Compressor}{10}{subsection.3.2}\protected@file@percent }
+\newlabel{sec:compressor}{{3.2}{10}{Compressor}{subsection.3.2}{}}
+\newlabel{sec:compressor@cref}{{[subsection][2][3]3.2}{[1][9][]10}}
+\@writefile{toc}{\contentsline {paragraph}{Dew-pressure target.}{10}{section*.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Pump}{10}{subsection.3.3}\protected@file@percent }
+\newlabel{sec:pump}{{3.3}{10}{Pump}{subsection.3.3}{}}
+\newlabel{sec:pump@cref}{{[subsection][3][3]3.3}{[1][10][]10}}
+\@writefile{toc}{\contentsline {paragraph}{Bubble-pressure target.}{10}{section*.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Valve}{10}{subsection.3.4}\protected@file@percent }
+\newlabel{sec:valve}{{3.4}{10}{Valve}{subsection.3.4}{}}
+\newlabel{sec:valve@cref}{{[subsection][4][3]3.4}{[1][10][]10}}
+\@writefile{toc}{\contentsline {paragraph}{Bubble-pressure target.}{10}{section*.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Flash separation}{10}{subsection.3.5}\protected@file@percent }
+\newlabel{sec:flash}{{3.5}{10}{Flash separation}{subsection.3.5}{}}
+\newlabel{sec:flash@cref}{{[subsection][5][3]3.5}{[1][10][]10}}
+\@writefile{toc}{\contentsline {paragraph}{Flash drum duty proxy.}{11}{section*.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Shortcut distillation — FUG method}{11}{subsection.3.6}\protected@file@percent }
+\newlabel{sec:distillation}{{3.6}{11}{Shortcut distillation — FUG method}{subsection.3.6}{}}
+\newlabel{sec:distillation@cref}{{[subsection][6][3]3.6}{[1][11][]11}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.6.1}Relative volatilities}{11}{subsubsection.3.6.1}\protected@file@percent }
+\newlabel{sec:relVol}{{3.6.1}{11}{Relative volatilities}{subsubsection.3.6.1}{}}
+\newlabel{sec:relVol@cref}{{[subsubsection][1][3,6]3.6.1}{[1][11][]11}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.6.2}Fenske minimum stages}{11}{subsubsection.3.6.2}\protected@file@percent }
+\newlabel{sec:fenske}{{3.6.2}{11}{Fenske minimum stages}{subsubsection.3.6.2}{}}
+\newlabel{sec:fenske@cref}{{[subsubsection][2][3,6]3.6.2}{[1][11][]11}}
+\newlabel{eq:fenske}{{35}{11}{Fenske minimum stages}{equation.3.35}{}}
+\newlabel{eq:fenske@cref}{{[equation][35][]35}{[1][11][]11}}
+\@writefile{toc}{\contentsline {paragraph}{Non-key distribution.}{11}{section*.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.6.3}Underwood minimum reflux}{12}{subsubsection.3.6.3}\protected@file@percent }
+\newlabel{sec:underwood}{{3.6.3}{12}{Underwood minimum reflux}{subsubsection.3.6.3}{}}
+\newlabel{sec:underwood@cref}{{[subsubsection][3][3,6]3.6.3}{[1][11][]12}}
+\newlabel{eq:underwood_root}{{37}{12}{Underwood minimum reflux}{equation.3.37}{}}
+\newlabel{eq:underwood_root@cref}{{[equation][37][]37}{[1][12][]12}}
+\newlabel{eq:rmin}{{38}{12}{Underwood minimum reflux}{equation.3.38}{}}
+\newlabel{eq:rmin@cref}{{[equation][38][]38}{[1][12][]12}}
+\@writefile{toc}{\contentsline {paragraph}{Adjacency requirement.}{12}{section*.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Newton--Raphson--bisection solver.}{12}{section*.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.6.4}Gilliland stage estimate}{12}{subsubsection.3.6.4}\protected@file@percent }
+\newlabel{sec:gilliland}{{3.6.4}{12}{Gilliland stage estimate}{subsubsection.3.6.4}{}}
+\newlabel{sec:gilliland@cref}{{[subsubsection][4][3,6]3.6.4}{[1][12][]12}}
+\newlabel{eq:gilliland_Y}{{41}{12}{Gilliland stage estimate}{equation.3.41}{}}
+\newlabel{eq:gilliland_Y@cref}{{[equation][41][]41}{[1][12][]12}}
+\newlabel{eq:gilliland_N}{{42}{13}{Gilliland stage estimate}{equation.3.42}{}}
+\newlabel{eq:gilliland_N@cref}{{[equation][42][]42}{[1][12][]13}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.6.5}Product stream temperatures}{13}{subsubsection.3.6.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Full column energy balance}{13}{subsection.3.7}\protected@file@percent }
+\newlabel{sec:energy_balance}{{3.7}{13}{Full column energy balance}{subsection.3.7}{}}
+\newlabel{sec:energy_balance@cref}{{[subsection][7][3]3.7}{[1][13][]13}}
+\@writefile{toc}{\contentsline {paragraph}{Control volume and first law.}{13}{section*.11}\protected@file@percent }
+\newlabel{eq:EB_full}{{43}{13}{Control volume and first law}{equation.3.43}{}}
+\newlabel{eq:EB_full@cref}{{[equation][43][]43}{[1][13][]13}}
+\newlabel{eq:reb_from_cond}{{44}{13}{Control volume and first law}{equation.3.44}{}}
+\newlabel{eq:reb_from_cond@cref}{{[equation][44][]44}{[1][13][]13}}
+\@writefile{toc}{\contentsline {paragraph}{Condenser duty.}{13}{section*.12}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Four flash evaluations required by the full energy balance model.\relax }}{13}{table.caption.14}\protected@file@percent }
+\newlabel{tab:flash_calls}{{2}{13}{Four flash evaluations required by the full energy balance model.\relax }{table.caption.14}{}}
+\newlabel{tab:flash_calls@cref}{{[table][2][]2}{[1][13][]13}}
+\@writefile{toc}{\contentsline {paragraph}{Required flash calls.}{13}{table.caption.14}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Reboiler duty.}{14}{section*.15}\protected@file@percent }
+\newlabel{eq:Q_reb}{{47}{14}{Reboiler duty}{equation.3.47}{}}
+\newlabel{eq:Q_reb@cref}{{[equation][47][]47}{[1][14][]14}}
+\@writefile{toc}{\contentsline {paragraph}{Duty accumulation.}{14}{section*.16}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Separation Quality Metrics and Reward Function}{14}{section.4}\protected@file@percent }
+\newlabel{sec:reward}{{4}{14}{Separation Quality Metrics and Reward Function}{section.4}{}}
+\newlabel{sec:reward@cref}{{[section][4][]4}{[1][14][]14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Purity-recovery metric}{14}{subsection.4.1}\protected@file@percent }
+\newlabel{sec:pr_metric}{{4.1}{14}{Purity-recovery metric}{subsection.4.1}{}}
+\newlabel{sec:pr_metric@cref}{{[subsection][1][4]4.1}{[1][14][]14}}
+\newlabel{eq:sigma_PR}{{51}{14}{Purity-recovery metric}{equation.4.51}{}}
+\newlabel{eq:sigma_PR@cref}{{[equation][51][]51}{[1][14][]14}}
+\@writefile{toc}{\contentsline {paragraph}{Limitation.}{14}{section*.17}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Mutual information separation metric}{14}{subsection.4.2}\protected@file@percent }
+\newlabel{sec:mi_metric}{{4.2}{14}{Mutual information separation metric}{subsection.4.2}{}}
+\newlabel{sec:mi_metric@cref}{{[subsection][2][4]4.2}{[1][14][]14}}
+\@writefile{toc}{\contentsline {paragraph}{Joint distribution.}{14}{section*.18}\protected@file@percent }
+\newlabel{eq:joint_dist}{{52}{14}{Joint distribution}{equation.4.52}{}}
+\newlabel{eq:joint_dist@cref}{{[equation][52][]52}{[1][14][]14}}
+\@writefile{toc}{\contentsline {paragraph}{Mutual information.}{15}{section*.19}\protected@file@percent }
+\newlabel{eq:MI}{{54}{15}{Mutual information}{equation.4.54}{}}
+\newlabel{eq:MI@cref}{{[equation][54][]54}{[1][15][]15}}
+\@writefile{toc}{\contentsline {paragraph}{Equal-weight normalisation.}{15}{section*.20}\protected@file@percent }
+\newlabel{eq:sigma_MI_eq}{{57}{15}{Equal-weight normalisation}{equation.4.57}{}}
+\newlabel{eq:sigma_MI_eq@cref}{{[equation][57][]57}{[1][15][]15}}
+\@writefile{toc}{\contentsline {paragraph}{Material-balance robustness.}{15}{section*.21}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Properties.}{16}{section*.22}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Reward function}{16}{subsection.4.3}\protected@file@percent }
+\newlabel{sec:reward_fn}{{4.3}{16}{Reward function}{subsection.4.3}{}}
+\newlabel{sec:reward_fn@cref}{{[subsection][3][4]4.3}{[1][16][]16}}
+\newlabel{eq:reward_base}{{58}{16}{Reward function}{equation.4.58}{}}
+\newlabel{eq:reward_base@cref}{{[equation][58][]58}{[1][16][]16}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Reward function penalty terms.\relax }}{16}{table.caption.23}\protected@file@percent }
+\newlabel{tab:penalties}{{3}{16}{Reward function penalty terms.\relax }{table.caption.23}{}}
+\newlabel{tab:penalties@cref}{{[table][3][]3}{[1][16][]16}}
+\@writefile{toc}{\contentsline {paragraph}{Reward normalisation.}{16}{section*.24}\protected@file@percent }
+\newlabel{eq:reward_norm}{{59}{16}{Reward normalisation}{equation.4.59}{}}
+\newlabel{eq:reward_norm@cref}{{[equation][59][]59}{[1][16][]16}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Terminal conditions}{16}{subsection.4.4}\protected@file@percent }
+\newlabel{sec:terminal}{{4.4}{16}{Terminal conditions}{subsection.4.4}{}}
+\newlabel{sec:terminal@cref}{{[subsection][4][4]4.4}{[1][16][]16}}
+\citation{kocsis2006}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Monte Carlo Tree Search}{17}{section.5}\protected@file@percent }
+\newlabel{sec:mcts}{{5}{17}{Monte Carlo Tree Search}{section.5}{}}
+\newlabel{sec:mcts@cref}{{[section][5][]5}{[1][17][]17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}The four phases of MCTS}{17}{subsection.5.1}\protected@file@percent }
+\newlabel{sec:mcts_phases}{{5.1}{17}{The four phases of MCTS}{subsection.5.1}{}}
+\newlabel{sec:mcts_phases@cref}{{[subsection][1][5]5.1}{[1][17][]17}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces One iteration of MCTS for flowsheet synthesis.\relax }}{17}{algocf.1}\protected@file@percent }
+\newlabel{alg:mcts_iter}{{1}{17}{The four phases of MCTS}{algocf.1}{}}
+\newlabel{alg:mcts_iter@cref}{{[algorithm][1][]1}{[1][17][]17}}
+\citation{auer2002finite}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1}Selection (UCT)}{18}{subsubsection.5.1.1}\protected@file@percent }
+\newlabel{sec:selection}{{5.1.1}{18}{Selection (UCT)}{subsubsection.5.1.1}{}}
+\newlabel{sec:selection@cref}{{[subsubsection][1][5,1]5.1.1}{[1][17][]18}}
+\newlabel{eq:uct}{{62}{18}{Selection (UCT)}{equation.5.62}{}}
+\newlabel{eq:uct@cref}{{[equation][62][]62}{[1][18][]18}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2}Expansion}{18}{subsubsection.5.1.2}\protected@file@percent }
+\newlabel{sec:expansion}{{5.1.2}{18}{Expansion}{subsubsection.5.1.2}{}}
+\newlabel{sec:expansion@cref}{{[subsubsection][2][5,1]5.1.2}{[1][18][]18}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.3}Simulation}{18}{subsubsection.5.1.3}\protected@file@percent }
+\newlabel{sec:simulation}{{5.1.3}{18}{Simulation}{subsubsection.5.1.3}{}}
+\newlabel{sec:simulation@cref}{{[subsubsection][3][5,1]5.1.3}{[1][18][]18}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.4}Backpropagation}{18}{subsubsection.5.1.4}\protected@file@percent }
+\newlabel{sec:backprop}{{5.1.4}{18}{Backpropagation}{subsubsection.5.1.4}{}}
+\newlabel{sec:backprop@cref}{{[subsubsection][4][5,1]5.1.4}{[1][18][]18}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.5}Relationship between reward and UCT}{18}{subsubsection.5.1.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Best tree path extraction}{19}{subsection.5.2}\protected@file@percent }
+\newlabel{sec:best_path}{{5.2}{19}{Best tree path extraction}{subsection.5.2}{}}
+\newlabel{sec:best_path@cref}{{[subsection][2][5]5.2}{[1][19][]19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Exact duplicate pruning}{19}{subsection.5.3}\protected@file@percent }
+\newlabel{sec:dup_pruning}{{5.3}{19}{Exact duplicate pruning}{subsection.5.3}{}}
+\newlabel{sec:dup_pruning@cref}{{[subsection][3][5]5.3}{[1][19][]19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Product purity auto-closing}{19}{subsection.5.4}\protected@file@percent }
+\newlabel{sec:auto_close}{{5.4}{19}{Product purity auto-closing}{subsection.5.4}{}}
+\newlabel{sec:auto_close@cref}{{[subsection][4][5]5.4}{[1][19][]19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Apply-action and FUG result caches}{20}{subsection.5.5}\protected@file@percent }
+\newlabel{sec:caches}{{5.5}{20}{Apply-action and FUG result caches}{subsection.5.5}{}}
+\newlabel{sec:caches@cref}{{[subsection][5][5]5.5}{[1][20][]20}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.6}Parallel root search}{20}{subsection.5.6}\protected@file@percent }
+\newlabel{sec:parallel}{{5.6}{20}{Parallel root search}{subsection.5.6}{}}
+\newlabel{sec:parallel@cref}{{[subsection][6][5]5.6}{[1][20][]20}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Experimental Setup}{20}{section.6}\protected@file@percent }
+\newlabel{sec:setup}{{6}{20}{Experimental Setup}{section.6}{}}
+\newlabel{sec:setup@cref}{{[section][6][]6}{[1][20][]20}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Overview}{20}{subsection.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Primary case study: 5-component NGL system}{20}{subsection.6.2}\protected@file@percent }
+\newlabel{sec:5comp}{{6.2}{20}{Primary case study: 5-component NGL system}{subsection.6.2}{}}
+\newlabel{sec:5comp@cref}{{[subsection][2][6]6.2}{[1][20][]20}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Component properties for the 5-component NGL system at 300\,K, 1\,bar. Volatilities $\alpha _i$ relative to $n$-butane.\relax }}{21}{table.caption.26}\protected@file@percent }
+\newlabel{tab:components}{{4}{21}{Component properties for the 5-component NGL system at 300\,K, 1\,bar. Volatilities $\alpha _i$ relative to $n$-butane.\relax }{table.caption.26}{}}
+\newlabel{tab:components@cref}{{[table][4][]4}{[1][20][]21}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Feed conditions for \texttt  {5comp\_original}. Nominal composition (mol\,\%): CO$_2$/C2/C3/iC4/nC4 = 10/20/30/20/20. Feed temperature $T_0 = 300$\,K for all conditions.\relax }}{21}{table.caption.27}\protected@file@percent }
+\newlabel{tab:feed_conditions}{{5}{21}{Feed conditions for \texttt {5comp\_original}. Nominal composition (mol\,\%): CO$_2$/C2/C3/iC4/nC4 = 10/20/30/20/20. Feed temperature $T_0 = 300$\,K for all conditions.\relax }{table.caption.27}{}}
+\newlabel{tab:feed_conditions@cref}{{[table][5][]5}{[1][20][]21}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Additional chemical systems}{21}{subsection.6.3}\protected@file@percent }
+\newlabel{sec:all_systems}{{6.3}{21}{Additional chemical systems}{subsection.6.3}{}}
+\newlabel{sec:all_systems@cref}{{[subsection][3][6]6.3}{[1][20][]21}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces All nine chemical systems in the pilot study. $n_c$ = number of components; \emph  {Cond.}\ = number of feed conditions tested; \emph  {Runs} = total runs (conditions $\times $ 3 seeds).\relax }}{21}{table.caption.28}\protected@file@percent }
+\newlabel{tab:all_systems}{{6}{21}{All nine chemical systems in the pilot study. $n_c$ = number of components; \emph {Cond.}\ = number of feed conditions tested; \emph {Runs} = total runs (conditions $\times $ 3 seeds).\relax }{table.caption.28}{}}
+\newlabel{tab:all_systems@cref}{{[table][6][]6}{[1][20][]21}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}MCTS configuration}{22}{subsection.6.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces MCTS configuration parameters used in all experiments. \emph  {Note:} this is a pilot study (3 seeds, 1\,500 iterations per run).\relax }}{22}{table.caption.29}\protected@file@percent }
+\newlabel{tab:config}{{7}{22}{MCTS configuration parameters used in all experiments. \emph {Note:} this is a pilot study (3 seeds, 1\,500 iterations per run).\relax }{table.caption.29}{}}
+\newlabel{tab:config@cref}{{[table][7][]7}{[1][21][]22}}
+\@writefile{toc}{\contentsline {paragraph}{Choice of exploration weight.}{22}{section*.30}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5}Success criterion}{22}{subsection.6.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Results}{22}{section.7}\protected@file@percent }
+\newlabel{sec:results}{{7}{22}{Results}{section.7}{}}
+\newlabel{sec:results@cref}{{[section][7][]7}{[1][22][]22}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Convergence behaviour — 5-component system}{22}{subsection.7.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Best $S_{\mathrm  {norm}}$ vs.\ MCTS iteration for the 5-component NGL system (pilot: 3 seeds per condition, 1\,500 iterations). Each line is one run; colour denotes feed condition; linestyle denotes seed index. Dashed horizontal line marks the 0.90 success threshold.\relax }}{23}{figure.caption.31}\protected@file@percent }
+\newlabel{fig:convergence}{{1}{23}{Best $S_{\mathrm {norm}}$ vs.\ MCTS iteration for the 5-component NGL system (pilot: 3 seeds per condition, 1\,500 iterations). Each line is one run; colour denotes feed condition; linestyle denotes seed index. Dashed horizontal line marks the 0.90 success threshold.\relax }{figure.caption.31}{}}
+\newlabel{fig:convergence@cref}{{[figure][1][]1}{[1][22][]23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Cumulative fraction of seeds that have reached $S_{\mathrm  {norm}} \geq 0.90$ by each MCTS iteration, for the \texttt  {5comp\_original} system. Each step function is one feed condition (3 seeds). \texttt  {high\_pressure} reaches 100\,\% success by iteration 200; \texttt  {low\_pressure} plateaus at 33\,\% (1 of 3 seeds) by iteration 800.\relax }}{24}{figure.caption.32}\protected@file@percent }
+\newlabel{fig:convergence_cdf}{{2}{24}{Cumulative fraction of seeds that have reached $S_{\mathrm {norm}} \geq 0.90$ by each MCTS iteration, for the \texttt {5comp\_original} system. Each step function is one feed condition (3 seeds). \texttt {high\_pressure} reaches 100\,\% success by iteration 200; \texttt {low\_pressure} plateaus at 33\,\% (1 of 3 seeds) by iteration 800.\relax }{figure.caption.32}{}}
+\newlabel{fig:convergence_cdf@cref}{{[figure][2][]2}{[1][22][]24}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Best flowsheet topology}{24}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Multi-system comparison}{24}{subsection.7.3}\protected@file@percent }
+\newlabel{RF1}{25}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Best flowsheet found by MCTS for the \texttt  {5comp\_original} system ($S_{\mathrm  {norm}} = 0.903$, \texttt  {nominal} condition, seed\nobreakspace  {}3). Green = compressor, blue = distillation column, orange = heat exchanger, cyan = valve. The search discovers a pressure-swing sequence: (1)\nobreakspace  {}compress the feed to 10\,bar, (2)\nobreakspace  {}separate C3/iC4 and iC4/nC4 at elevated pressure, (3)\nobreakspace  {}valve the C3-rich distillate to 7.5\,bar and warm by 20\,K, (4)\nobreakspace  {}recompress to 15\,bar for the sub-ambient CO$_2$/C2 column, (5)\nobreakspace  {}cool the bottoms by 20\,K and split C2 from C3. All five components exit as nearly pure product streams.\relax }}{25}{figure.caption.34}\protected@file@percent }
+\newlabel{fig:topo_nominal}{{3}{25}{Best flowsheet found by MCTS for the \texttt {5comp\_original} system ($S_{\mathrm {norm}} = 0.903$, \texttt {nominal} condition, seed~3). Green = compressor, blue = distillation column, orange = heat exchanger, cyan = valve. The search discovers a pressure-swing sequence: (1)~compress the feed to 10\,bar, (2)~separate C3/iC4 and iC4/nC4 at elevated pressure, (3)~valve the C3-rich distillate to 7.5\,bar and warm by 20\,K, (4)~recompress to 15\,bar for the sub-ambient CO$_2$/C2 column, (5)~cool the bottoms by 20\,K and split C2 from C3. All five components exit as nearly pure product streams.\relax }{figure.caption.34}{}}
+\newlabel{fig:topo_nominal@cref}{{[figure][3][]3}{[1][23][]25}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Per-condition summary for \texttt  {5comp\_original} (3 seeds per condition, 1\,500 iterations). Med.\ iters/thermo computed over successful runs only; ``---'' = no successful run. CI = 95\,\% Wilson score confidence interval on the success rate.\relax }}{26}{table.caption.33}\protected@file@percent }
+\newlabel{tab:5comp_conditions}{{8}{26}{Per-condition summary for \texttt {5comp\_original} (3 seeds per condition, 1\,500 iterations). Med.\ iters/thermo computed over successful runs only; ``---'' = no successful run. CI = 95\,\% Wilson score confidence interval on the success rate.\relax }{table.caption.33}{}}
+\newlabel{tab:5comp_conditions@cref}{{[table][8][]8}{[1][23][]26}}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Pilot-study results for all nine chemical systems ($\leq $5 conditions $\times $ 3 seeds per condition). $\bar  {S}$ = mean $S_{\mathrm  {norm}}$ over all runs; med.\ iters and med.\ thermo computed over successful runs only. CI = 95\,\% Wilson score confidence interval on the success rate.\relax }}{26}{table.caption.35}\protected@file@percent }
+\newlabel{tab:all_results}{{9}{26}{Pilot-study results for all nine chemical systems ($\leq $5 conditions $\times $ 3 seeds per condition). $\bar {S}$ = mean $S_{\mathrm {norm}}$ over all runs; med.\ iters and med.\ thermo computed over successful runs only. CI = 95\,\% Wilson score confidence interval on the success rate.\relax }{table.caption.35}{}}
+\newlabel{tab:all_results@cref}{{[table][9][]9}{[1][24][]26}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4}Computational cost}{26}{subsection.7.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.5}Topology consistency across seeds}{26}{subsection.7.5}\protected@file@percent }
+\newlabel{sec:topology_consistency}{{7.5}{26}{Topology consistency across seeds}{subsection.7.5}{}}
+\newlabel{sec:topology_consistency@cref}{{[subsection][5][7]7.5}{[1][26][]26}}
+\@writefile{toc}{\contentsline {paragraph}{High diversity (7 of 9 systems, including both clear successes).}{26}{section*.39}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Success rate (blue bars, \%) and mean $S_{\mathrm  {norm}} \times 100$ (red bars), per system, sorted by success rate. The dashed line at $y = 90$ corresponds to the per-run success criterion $S_{\mathrm  {norm}} \geq 0.90$; for the blue bars it reads as ``90\,\% of runs succeeded'', while for the red bars it marks the $S_{\mathrm  {norm}}$ threshold itself.\relax }}{27}{figure.caption.36}\protected@file@percent }
+\newlabel{fig:success_rates}{{4}{27}{Success rate (blue bars, \%) and mean $S_{\mathrm {norm}} \times 100$ (red bars), per system, sorted by success rate. The dashed line at $y = 90$ corresponds to the per-run success criterion $S_{\mathrm {norm}} \geq 0.90$; for the blue bars it reads as ``90\,\% of runs succeeded'', while for the red bars it marks the $S_{\mathrm {norm}}$ threshold itself.\relax }{figure.caption.36}{}}
+\newlabel{fig:success_rates@cref}{{[figure][4][]4}{[1][24][]27}}
+\@writefile{toc}{\contentsline {paragraph}{Low diversity (\texttt  {3comp\_C2C4}, \texttt  {4comp\_syngas\_inerts}).}{27}{section*.40}\protected@file@percent }
+\newlabel{sec:discussion}{{7.5}{27}{Low diversity (\texttt {3comp\_C2C4}, \texttt {4comp\_syngas\_inerts})}{section*.40}{}}
+\newlabel{sec:discussion@cref}{{[subsection][5][7]7.5}{[1][27][]27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Thermo evaluations (left) and MCTS iterations (right) to success for the four systems that achieved at least one successful run. Box plots with fewer than 5 data points are indicative only.\relax }}{28}{figure.caption.37}\protected@file@percent }
+\newlabel{fig:thermo_cost}{{5}{28}{Thermo evaluations (left) and MCTS iterations (right) to success for the four systems that achieved at least one successful run. Box plots with fewer than 5 data points are indicative only.\relax }{figure.caption.37}{}}
+\newlabel{fig:thermo_cost@cref}{{[figure][5][]5}{[1][26][]28}}
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Topology diversity per system. \emph  {Unique/Runs}: distinct topology hashes out of all runs; \emph  {Unique/Succ.}: distinct hashes among successful runs only (``---'' if no successes); \emph  {Seq.\ len.}: min--median--max action-sequence length over all runs of that system.\relax }}{28}{table.caption.38}\protected@file@percent }
+\newlabel{tab:topo_diversity}{{10}{28}{Topology diversity per system. \emph {Unique/Runs}: distinct topology hashes out of all runs; \emph {Unique/Succ.}: distinct hashes among successful runs only (``---'' if no successes); \emph {Seq.\ len.}: min--median--max action-sequence length over all runs of that system.\relax }{table.caption.38}{}}
+\newlabel{tab:topo_diversity@cref}{{[table][10][]10}{[1][26][]28}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.6}Effect of feed condition on topology}{28}{subsection.7.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.7}Role of the adjacency constraint}{29}{subsection.7.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.8}Reward penalty balance}{29}{subsection.7.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.9}Limitations of the simplified models}{29}{subsection.7.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.10}System-level failure analysis}{30}{subsection.7.10}\protected@file@percent }
+\newlabel{sec:failure_analysis}{{7.10}{30}{System-level failure analysis}{subsection.7.10}{}}
+\newlabel{sec:failure_analysis@cref}{{[subsection][10][7]7.10}{[1][29][]30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Box plots of final $S_{\mathrm  {norm}}$ for all nine systems (123 runs total), ordered by median score. Green dashed line: 0.90 success threshold. Systems with all values $\gg 0.90$: success in most conditions. Systems clustered just below 0.90: budget-limited marginal failures. Systems near 0 or 0.5: structural failures requiring different search strategy.\relax }}{30}{figure.caption.41}\protected@file@percent }
+\newlabel{fig:fot_dist}{{6}{30}{Box plots of final $S_{\mathrm {norm}}$ for all nine systems (123 runs total), ordered by median score. Green dashed line: 0.90 success threshold. Systems with all values $\gg 0.90$: success in most conditions. Systems clustered just below 0.90: budget-limited marginal failures. Systems near 0 or 0.5: structural failures requiring different search strategy.\relax }{figure.caption.41}{}}
+\newlabel{fig:fot_dist@cref}{{[figure][6][]6}{[1][29][]30}}
+\@writefile{toc}{\contentsline {paragraph}{4comp\_syngas\_inerts ($\bar  {S} = 0.010$).}{30}{section*.42}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{3comp\_solvents ($\bar  {S} = 0.515$).}{30}{section*.43}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{4comp\_CO2\_aromatic\_solvent ($\bar  {S} = 0.737$).}{31}{section*.44}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{3comp\_C2C4 and 4comp\_CO2 ($\bar  {S} \approx 0.882$ and $0.895$).}{31}{section*.45}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Summary.}{31}{section*.46}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.11}Comparison to random search}{31}{subsection.7.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}Conclusions and Outlook}{31}{section.8}\protected@file@percent }
+\newlabel{sec:conclusions}{{8}{31}{Conclusions and Outlook}{section.8}{}}
+\newlabel{sec:conclusions@cref}{{[section][8][]8}{[1][31][]31}}
+\bibstyle{plainnat}
+\bibcite{auer2002finite}{{1}{2002}{{Auer et~al.}}{{}}}
+\bibcite{coulom2006}{{2}{2006}{{Coulom}}{{}}}
+\bibcite{kocsis2006}{{3}{2006}{{Kocsis \& Szepesv\'{a}ri}}{{}}}
+\bibcite{fenske1932}{{4}{1932}{{Fenske}}{{}}}
+\@writefile{toc}{\contentsline {paragraph}{Future work.}{32}{section*.47}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {A}Notation summary}{32}{appendix.A}\protected@file@percent }
+\newlabel{app:notation}{{A}{32}{Notation summary}{appendix.A}{}}
+\newlabel{app:notation@cref}{{[appendix][1][2147483647]A}{[1][32][]32}}
+\bibcite{underwood1948}{{5}{1948}{{Underwood}}{{}}}
+\bibcite{gilliland1940}{{6}{1940}{{Gilliland}}{{}}}
+\bibcite{pr1976}{{7}{1976}{{Peng \& Robinson}}{{}}}
+\bibcite{mazzotti2012}{{8}{2012}{{Mazzotti}}{{}}}
+\bibcite{browne2012}{{9}{2012}{{Browne et~al.}}{{}}}
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces Principal symbols used throughout the report.\relax }}{33}{table.caption.48}\protected@file@percent }
+\newlabel{tab:notation}{{11}{33}{Principal symbols used throughout the report.\relax }{table.caption.48}{}}
+\newlabel{tab:notation@cref}{{[table][11][2147483647]11}{[1][32][]33}}
+\gdef \@abspage@last{34}
